@@ -1,0 +1,224 @@
+/***** BASE STYLES *****/
+body {
+	color: #2b2b2b;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+header {
+    height: 800px;
+    background: white;
+}
+
+#about {
+    height: 750px;
+}
+
+#work {
+    height: 800px;
+    background: white;
+}
+
+#contact {
+    height: 400px;
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+	float: left;
+}
+
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+	float: left;
+}
+
+
+/***** HEADER *****/
+/*header {
+    background-image: url(../img/hero-image2-copy.jpg);
+    background-size: cover;
+}
+*/
+
+nav {
+    float: right; 
+    padding: 20px 20px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #9b9b9b;
+    font-size: 18pt;
+    font-weight:bold;
+    padding-left: 80px;
+    text-transform: uppercase;
+    text-decoration: none;   
+}
+
+header h1 { 
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 68px;
+    line-height: 95px;
+    font-weight: bold;
+    padding: 150px 0 0 100px;
+    text-align: left;
+    margin: 0;
+}
+
+header h2 {
+    color: #9b9b9b;
+    font-family: 'Lora', serif;
+    font-size: 48px;
+    line-height: 55px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+header span {
+    color: #f1a9ae;
+}
+
+/***** ABOUT SECTION*****/
+#about {
+    background: #f7cfd2;
+    padding-top: 100px;
+}
+
+#about .full-width {
+    padding: 20px 0;
+    overflow: auto;
+}
+
+#about h2{
+	font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+    margin: auto;    
+}
+
+#about img{
+    width: 300px;
+    margin: 0 auto 40px auto;
+    border: 2px solid white;
+}
+
+#about p {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    margin: auto;
+    padding: 10px;
+    width: 700px;
+}
+
+
+/***** PORTFOLIO SECTIOIN *****/
+
+#work{
+    overflow: auto;
+    padding-top: 100px;
+
+}
+#work .full-width {
+    padding: 25px 0;  
+    overflow: auto;
+}
+
+#work .third-width {
+    margin: 0 auto 30px auto;
+
+}
+
+#work h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 32px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+#work h3 {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    margin: 10px auto;
+}
+
+#work p {
+    color: #7f7f7f;
+	font-size: 18px;
+	padding-left: 20px 50px;
+}
+
+#work img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #EFEFEF;
+    padding: 2px;
+    box-shadow: 5px 5px 0px #d9d3d3;
+}
+
+/***** CONTACT *****/
+#contact {
+    background: #6da1a1;   
+    color: white;
+    padding-top: 100px;
+}
+
+#contact .full-width {
+    padding: 10px 0;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 32px;
+    padding: 20px;
+}
+
+#contact h3 {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    line-height: 40px;
+    padding-bottom: 15PX;
+    margin: auto;
+}
+
+#contact .email, #contact p{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0;
+}
+
+#contact .socialMedia {
+    color: #e3b9bc;
+}
+
+#contact ul {
+    list-style: none;
+    margin: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+    padding-right: 48px;
+}
+
+
+
